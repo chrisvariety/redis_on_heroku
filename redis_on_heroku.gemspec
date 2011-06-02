@@ -5,18 +5,11 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris McClelland"]
   s.date = %q{2010-03-11}
-  s.default_executable = %q{redis-server}
+  s.default_executable = %q{heroku-redis-server}
   s.description = %q{Redis on heroku -- without relying on external services.}
   s.email = ["gondaba@gondaba.com"]
   s.executables = ["redis-server", "redis-cli", "redis-check-aof", "redis-check-dump", "redis-benchmark"]
-  s.files = [
-    "redis.conf"
-    "bin/redis-benchmark",
-     "bin/redis-check-aof",
-     "bin/redis-check-dump",
-     "bin/redis-cli",
-     "bin/redis-server"
-  ]
+  s.files = ["redis.conf", "bin/redis-benchmark", "bin/redis-check-aof", "bin/redis-check-dump", "bin/redis-cli", "bin/redis-server"]
   s.homepage = %q{http://github.com/chrismcc/redis_on_heroku}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]

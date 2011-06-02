@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.default_executable = %q{heroku-redis-server}
   s.description = %q{Redis on heroku -- without relying on external services.}
   s.email = ["gondaba@gondaba.com"]
-  s.executables = ["redis-server", "redis-cli", "redis-check-aof", "redis-check-dump", "redis-benchmark"]
+  s.executables = ["heroku-redis-server"]
   s.files = ["redis.conf", "bin/redis-benchmark", "bin/redis-check-aof", "bin/redis-check-dump", "bin/redis-cli", "bin/redis-server"]
   s.homepage = %q{http://github.com/chrismcc/redis_on_heroku}
   s.rdoc_options = ["--charset=UTF-8"]
